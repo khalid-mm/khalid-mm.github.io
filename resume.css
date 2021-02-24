@@ -1,0 +1,425 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.educ ol li{
+    list-style: none;
+}
+
+.educ ol h2{
+    font-size:1.4rem;
+}
+
+.educ ol li{
+    font-size:1.4rem;
+    font-style: italic;
+}
+
+.ulskill{
+    font-size: 1.4rem;
+}
+
+h1{
+    font-size:2rem;
+    color:  rgb(42, 20, 235);
+    margin-bottom:0.2em;
+    margin-top: 0.7em;
+  
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-weight: bolder;
+}
+
+.container{
+    max-width: 84%;
+    margin: 0px auto;
+}
+
+.olnav li{
+    font-weight: bolder;
+   font-style: italic;
+}  
+
+.nav{
+    font-size:2.5rem;
+}
+
+
+
+/* ************************************************************* */
+               /* NAVBAR  */
+
+.div_nav{
+     
+    display: block;
+    /* border:2px solid black; */
+    float:left;
+    position:relative;
+    left:0px;
+    top:25px;
+   
+}
+.navbar .image{
+    display: block;
+    float:left;
+    position:relative;
+    left:400px;
+    margin:5px;
+     padding:15px;
+
+    /* border:2px solid black; */
+   
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear:both;
+}
+
+.olnav{
+    list-style: none;
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    font-weight:bolder;
+}
+
+.link{
+    /* text-decoration: none; */
+    color:blue;
+    /* border:1px solid red; */
+   
+}
+/* ************************************************************** */
+
+
+
+
+/* ************co section************************* */
+
+.co p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+/* *******************academic section***************** */
+
+table,td,th{
+
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding:7px
+
+}
+
+table th,td{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* *******************************SKILLS****************** */
+
+ .ul{
+    position: relative;
+    left:35px;
+} 
+
+.ul li{
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ***************************internship****************************** */
+
+
+.para p{
+    padding:3px;
+
+}
+
+/* ************************ ***************************************** */
+/* academic section  */
+
+
+
+/* ****************skills personal******************** */
+
+.personalskill li{
+
+    position: relative;
+    left:30px;
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.courses li{
+    
+    position: relative;
+    left:30px;
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* *********************************** */
+
+.declaration input,label{
+
+
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin: 5px;
+    padding:8px;
+
+    margin-bottom:25px;
+
+}
+
+/* ***************************************************************************** */
+
+.signature .one li{
+     
+    list-style: none;
+    position: relative;
+    left:38px;
+    font-size:1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signature .two{
+    float:right;
+}
+
+.signature {
+    /* border:2px solid red; */
+    margin-bottom: 1em;
+}
+
+.signature::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+
+
+/* ******************************************************** */
+
+
+
+@media (max-width:900px)
+{
+
+    h1{
+        font-size:0.9rem;
+
+    }
+
+    .educ ol li{
+        font-size:1rem;
+        font-style: italic;
+    }
+
+    .educ ol .h{
+        font-size: 1rem;
+    }
+
+    li{
+        font-size:1rem;
+    }
+    p{
+        font-size:1rem;
+    }
+
+
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box
+    }
+    .container{
+        max-width: 80%;
+        margin: 0px auto;
+    }
+
+    .navbar{
+        text-align: justify;
+
+    }
+    .nav{
+        font-size:1.0rem;
+    }
+   
+     .navbar .image{ 
+       
+        display: none;
+       
+     } 
+    
+    .olnav{
+       
+        font-size:0.8rem;
+    }
+
+    .co{
+        margin-top:2.5rem;
+        
+    }
+
+    .co h1{
+        font-size:1.1rem;
+    }
+
+    .co p{
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .educ{
+        font-size: 1rem;
+        
+
+    }
+
+    .ulskill{
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+
+.uni{
+    display: none;
+}
+.academic_marks{
+
+    text-align: left;
+    
+}
+.skills{
+    text-align: left;
+}
+.internship{
+    text-align: left;
+
+}
+
+.academic{
+    text-align: left;
+
+}
+.personalskill ul li{
+    font-size:1rem;
+
+}
+
+.personalskill ul{
+
+    text-align: justify;
+    position:relative;
+    right:14px;
+
+}
+
+.courses ul li{
+    font-size:1rem;
+    /* list-style-type: none; */
+}
+.courses ul{
+    text-align: left;
+    position:relative;
+    right:14px;
+}
+
+
+.one{
+    float:none;
+    text-align: justify;
+    font-size:1rem;
+    /* border:2px solid red; */
+}
+.two{
+    float:none;
+   position:relative;
+   right:20px;
+   font-size:0.5rem;
+}
+.signature{
+    /* border:2px solid red; */
+    /* width: 60%; */
+    /* text-align: center; */
+    /* margin:0px auto; */
+
+}
+.declaration input,#label{
+    margin: 0px;
+    padding:0px;
+    font-size:0.9rem;
+    /* border:2px solid red; */
+
+    margin-bottom:0px;
+}
+
+.personaldetails td{
+    font-size: 0.9rem;
+
+}
+
+}
+
+@media (min-width:901px) and (max-width:1160px)
+{
+
+   .navbar .image{
+       float:none;
+       display: none;
+   }
+
+   .navbar{
+    /* border:2px solid red; */
+    margin-bottom: 4rem;
+}
+
+}
+
+@media(min-width:1161px) and (max-width:1261px)
+{
+    .navbar .image{
+        float:right;
+        position: relative;
+        left:110px;
+        bottom: 150px;
+    }
+
+    .navbar{
+        /* border:2px solid red; */
+        margin-bottom: 4rem;
+    }
+
+    .navbar::after{
+        content: '';
+        display: block;
+        clear: left;
+       
+    }
+}
+
+
+
+/* work on personal details    */
+
+
+
+
